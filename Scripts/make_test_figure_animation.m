@@ -25,7 +25,7 @@ addpath 'C:\Users\mscanderbeg\Data\Data\trajectory\map_codes\cmocean'
 addpath 'C:\Users\mscanderbeg\Data\Data\trajectory\map_codes\brewer'
 addpath 'C:\Users\mscanderbeg\Data\Data\trajectory\csirolib\csirolib\'
 
-  set(0,'DefaultFigureVisible','off')
+set(0,'DefaultFigureVisible','off')
  %set(0,'DefaultFigureVisible','on')
 %%%%%%%%%%%%%%%% set filename
 % set up incoming file
@@ -57,8 +57,9 @@ end
 load etopo2.mat
 %%%%%%%%%%%%%%%
 
+cd ..
+cd 'Figures/temp_anom_bathyplots'
 % set plot directory
-plot_dir = 'C:\Users\mscanderbeg\Data\Data\trajectory\plots\animation\';
 
 
 % set colorbar
