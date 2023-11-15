@@ -23,13 +23,14 @@ OHC_data_long <- OHC_data %>%
                names_to = "depth_integration",  # Name of the label column
                values_to = "value") %>%         
   mutate(depth_integration = as.numeric(depth_integration), #factor(depth_integration, levels = unique(depth_integration)),
-         Date = make_date(year = as.numeric(OHC_data_long$Year), month = 1, day = 1))
+         Date = make_date(year = as.numeric(Year), month = 1, day = 1)) %>% 
+  filter(depth_integration != 1950)
 
 
 OHC_plot <- ggplot() +
   geom_path(data = OHC_data_long, aes(x = Date, y = value,
                                       #color=daily_filtered_long_drift_long_SI,
-                                      group = depth_integration, color = depth_integration), alpha = 0.5) +
+                                      group = depth_integration, color = depth_integration), alpha = 0.5, size=2) +
   geom_point(data = OHC_data_long, aes(x = Date, y = value,
                                        #color=daily_filtered_long_drift_long_SI,
                                        fill = depth_integration,
@@ -70,7 +71,8 @@ anim_save(here("Figures", paste("OHC_data_by_depth_transstates.gif", sep = "")),
 OHC_byyear_plot <- ggplot() +
   geom_path(data = OHC_data_long, aes(x = Date, y = value,
                                       #color=daily_filtered_long_drift_long_SI,
-                                      group = depth_integration, color = depth_integration), alpha = 0.5) +
+                                      group = depth_integration, color = depth_integration), alpha = 0.5,
+            size= 4) +
   geom_point(data = OHC_data_long, aes(x = Date, y = value,
                                        #color=daily_filtered_long_drift_long_SI,
                                        fill = depth_integration,
