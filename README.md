@@ -16,16 +16,14 @@ Animation by Jessica Kendall-Bar. https://jessiekb.com 
 
 Science Advisors: Sarah Purkey & Megan Scanderbeg - Climate, Atmospheric Sciences, and Physical Oceanography, Scripps Institution of Oceanography, UC San Diego.
 
-This short animation shows an increase in temperature below the ocean's surface as measured by autonomous profiling Argo floats over the course of the program's history since 2004, when float readings became dense enough to interpolate heat measurements for nearly any point on the globe. As our oceans warm, the ocean is storing more and more of the added heat in our atmosphere. When temperature change is distributed over the large ocean volume, it contains a lot of heat energy. Since the 1980s, the ocean has accumulated over 176 zetta-Joules of heat energy, roughly the equivalent of 7 billion atomic bombs. It is critical to understand this heat increase and the extent of ocean warming to better understand risks to marine life and society. 
+This animation shows an increase in temperature below the ocean's surface as measured by autonomous profiling Argo floats over the course of the program's history since 2004, when float readings became dense enough to interpolate heat measurements for nearly any point on the globe. As our oceans warm, the ocean is storing more and more of the added heat in our atmosphere. When temperature change is distributed over the large ocean volume, it contains a lot of heat energy. Since the 1980s, the ocean has accumulated over 176 zetta-Joules of heat energy, roughly the equivalent of 7 billion atomic bombs. It is critical to understand this heat increase and the extent of ocean warming to better understand risks to marine life and society. 
 
 https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content 
 
-We used Argo data from January 2004 to September 2023. In the background at the beginning, we see the position of Argo floats over time. Then, we see temperature anomaly from 0 to 2000 m at 60 degrees south across the global Southern Ocean from 0 to 360 degrees. Temperature differences were calculated based on an average local temperature over January 2004 to December 2018. Roemmich-GiIson Argo Climatology (2009). Code used to create the animations is available in the the associated GitHub repository: https://github.com/jmkendallbar/Argo-Animation
+We used Argo data from January 2004 to September 2023. Temperature differences were calculated based on an average local temperature over January 2004 to December 2018. Roemmich-GiIson Argo Climatology (2009). Code used to create the animations is available in the the associated GitHub repository: https://github.com/jmkendallbar/Argo-Animation
 
 Publication: http://dx.doi.org/10.1016/j.pocean.2009.03.004 
 Dataset: https://sio-argo.ucsd.edu/pub/Global_Marine_Argo_Atlas/RG_ArgoClim_Temp.nc
-
-While the warming is clear, there are also some smaller, localized instances of apparent cooling, such as in the Drake's passage below South America. In this case, this is due to shifts in ocean circulation including the intensity and location of Southern Ocean zonal flow. Read more about these changes here: https://www.nature.com/articles/s41558-021-01212-5
 
 ----
 
